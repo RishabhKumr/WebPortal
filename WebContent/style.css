@@ -1,0 +1,25 @@
+div{
+    background-color: red;
+    color: blue;
+}
+div p{
+    background-color: burlywood;
+    color: crimson;
+}
+
+div,p,span,table{
+    border: 2px solid brown;
+}
+/*
+  Universal selector
+*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Element selector*/
+p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
